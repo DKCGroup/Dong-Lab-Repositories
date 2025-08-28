@@ -1,1 +1,1 @@
-
+Zero-power smart MEMS sensors refer to a category of microelectromechanical systems (MEMS) sensors that are designed to operate without the need for external power sources. By integrating new functional materials into conventional MEMS devices, we develop smart MEMS for versatile smart city applications. We work on the design, modelling, fabrication, and characterization of MEMS.<img width="582" height="768" alt="0cec5e5e180a8ed421228527db4eac72" src="https://github.com/user-attachments/assets/fbe2a4db-e914-4016-a650-b33b6b4a924c" />
