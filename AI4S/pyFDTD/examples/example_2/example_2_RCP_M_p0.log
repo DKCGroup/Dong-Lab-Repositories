@@ -1,0 +1,127 @@
+All processes are communicating and ready to proceed to simulation...
+CPU threads per process: 16
+GPU streaming multiprocessors(SMs): 36
+Checked out feature at start: 'FDTD_Solutions_engine'
+Checked out HPC license feature: 'FDTD_Solutions_engine'
+Ansys Lumerical 2025 R2 FDTD Solver Version 8.34.4175 (Windows 64bit)
+ expires (month/day/year): 12/31/2035
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@localhost
+current time: 周四 5月 14 13:15:10 2026
+Running on host: WIN-RNRS0L0N6B9
+host available memory (GiB) 216.715
+
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: C:\Program Files\ANSYS Inc\v252\Lumerical\bin\fdtd-engine.exe -gpu -t 16 -remote -shared-solve-license QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT08QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT48REFUQT5QRTlMUlZsZlUwbGFSVDRLTVRJNENqd3ZUMHRGV1Y5VFNWcEZQZ284UlU1RFgxTkpXa1UtQ2pFeU9BbzhMMFZPUTE5VFNWcEZQZ284U1ZaZlUwbGFSVDRLT0FvOEwwbFdYMU5KV2tVLUNqeE5VMGRmVTBsYVJUNEtNVE01Q2p3dlRWTkhYMU5KV2tVLUNqeE5VMGMtQ2s5R1ZVUmtUVEJSVVhnNWVEbFhjM04wVGtSRFp6RllOMWt3Uld0d1lqTkxaa1J6YUdJeVptNUpUVFEwVXpkbFZHbEhSemwyYjFSbmFrbzNhVlk1TFdsTFRYcHJPRUZ1YjBaT1RVRkdRblpzWVMxVWJteElTbEI2WWxSVE5tSXRWRWRGVVZGcFdHdFFjRnB6WWxsWlVqSndja2hXZW10TlVrbFVaa3hYY2tONmFYWjBSamgzWlV4SGFGWnNOREU0V2tRNVVGTjNSemxEYXpoaVVEZE9Ta3RvVG5SdU1HRjRiVEp2TUZnMWJYVk9SVVJXWTNwcGIycDNNamd5T1daR05WcGZNbEIzUTFWQ1lWcEhZbkZYUzB4a1drc3pWVlJNY0d4WFFuUmxhVzU0ZEZwR2J6bDFOemsxYUhWdlYyaGhVR2gzYldsRldtSlVNa2xST1dsRFN6aHZaV05RYTNSQ1NrbDBjR05sT1c1eVFqUm5aSFJ3ZFhaaFRXNTJUVFJCWkhJelp6ZzRhVGxZT0ZaVlVrcHdNRTUxTkc1NGFFaExiVm8yWlhabFVWbHdTMnBrZG05UlJEZE9jWEJXWkdSZlNrcG5UVWxqTm1sblNuQm5VVjk1ZVZJS1BDOU5VMGMtQ2c8L0RBVEE+PC9BTlNZU19MSUNFTlNJTkdfQ09OVEVYVF9EQVRBPgpBTlNZU19MSUNFTlNJTkdfV09SS0ZMT1dfU0VTU0lPTj08REFUQT48SUQ+V0lOLVJOUlMwTDBONkI5X0FkbWluaXN0cmF0b3JfMjUyPC9JRD48L0RBVEE+Cg== D:/LiCJ-Research/pyFDTD/examples/example_2/example_2_RCP_M.fsp
+Estimate of memory required: 0.177 GiB
+
+All processes are communicating and ready to proceed to simulation...
+number of processors is 1
+processors are distributed as: 1x1x1
+Minimum memory estimate for GPU:
+  Electromagnetic and auxiliary fields: 0.027 GiB
+  Grid and material coefficients: 0.013 GiB
+  Monitors: 0.016 GiB
+  Sources:  less than 0.001 GiB
+  Total: 0.056 GiB
+GPU device NVIDIA GeForce RTX 5060 Ti has 16311Mb memory capacity; and 14360Mb is free.
+Maximum memory estimate for GPU:
+  Electromagnetic and auxiliary fields: 0.033 GiB
+  Grid and material coefficients: 0.033 GiB
+  Monitors: 0.016 GiB
+  Sources:  less than 0.001 GiB
+  Total: 0.082 GiB
+Peak CPU memory used by end of initialization: 0.206197 GiB
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 52 x 52 x 434
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.453125 seconds of CPU time
+24% initialized.
+33% initialized.
+Starting meshing
+Simulation size in gridpoints: 52 x 52 x 434
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.265625 seconds of CPU time
+57% initialized.
+66% initialized.
+Starting meshing
+Simulation size in gridpoints: 52 x 52 x 434
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.015625 seconds of CPU time
+90% initialized.
+99% initialized.
+finished material properties
+Meshing Time: 0.108699 seconds, Init Electrical Material Time: 0.000000 seconds, Init Magnetic Material Time: 0.000000
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+100% initialized.
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D Gaussian source propagating in Z
+Reverted to narrowband source injection
+Adding 3D Gaussian source propagating in Z
+Reverted to narrowband source injection
+Starting to add boundary conditions to simulation
+Adding 3D Periodic BC
+Adding 3D Periodic BC
+Adding 3D Periodic BC
+Adding 3D Periodic BC
+Adding 3D PML BC
+Adding 3D PML BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+Peak CPU memory used by end of meshing: 0.352071 GiB
+All processes are communicating and ready to proceed to simulation...
+Starting 632718 total iterations
+Detected GPU 0: NVIDIA GeForce RTX 5060 Ti (UUID: b5d7f13a-d95f-788c-a007-edb5105dda2f)
+Using datatype: real32
+Concurrent managed access not available.
+
+Estimated memory use on GPU 0 (precise): 
+  Electromagnetic and auxiliary fields: 0.033 GiB
+  Grid and material coefficients: 0.026 GiB
+  Monitors: 0.016 GiB
+  Sources: 0.000 GiB
+  Total: 0.075 GiB
+
+Estimated memory use on the CPU (precise): 
+  Electromagnetic and auxiliary fields: 0.000 GiB
+  Grid and material coefficients: 0.079 GiB
+  Monitors: 0.000 GiB
+  Sources: 0.001 GiB
+  Total: 0.079 GiB
+
+
+0.00158048% complete. Elapsed simulation time: 1.58048e-16 secs. Max time remaining: 7 mins, 27 secs. Auto Shutoff: 1
+1.00171% complete. Elapsed simulation time: 1.00171e-13 secs. Max time remaining: 6 mins, 46 secs. Auto Shutoff: 1
+2.00184% complete. Elapsed simulation time: 2.00184e-13 secs. Max time remaining: 6 mins, 41 secs. Auto Shutoff: 1
+3.00197% complete. Elapsed simulation time: 3.00197e-13 secs. Max time remaining: 6 mins, 38 secs. Auto Shutoff: 1
+4.0021% complete. Elapsed simulation time: 4.0021e-13 secs. Max time remaining: 6 mins, 34 secs. Auto Shutoff: 0.170758
+100% complete. Max time remaining: 0 mins, 0 secs. Auto Shutoff: 8.40278e-06
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 31329 iterations, or 4.951496e-13s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+    collecting source data
+Reverted to narrowband source injection
+Reverted to narrowband source injection
+Finished collecting data
+Simulation completed successfully at: 周四 5月 14 13:15:31 2026
+Peak CPU memory used in the simulation (GiB): 0.459813
+Overall wall time measurements in seconds: 21.688232
+  time to mesh and initialize: 0.132451
+  time to run FDTD simulation: 20.948714
+  time to checkpoint simulation: 0.000000
+  time to finalize data and save to files: 0.042194
+  miscellaneous time: 0.564812
+  FDTD solver speed on process 0 (Mnodes/s): 1807.759434
+  total FDTD solver speed on 1 processes (Mnodes/s): 1807.759434
+

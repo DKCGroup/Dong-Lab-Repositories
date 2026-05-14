@@ -4,7 +4,7 @@ import lumapi
 MATERIAL = {
     "Ti": "Ti (Titanium) - Palik",
     "Ge": "Ge (Germanium) - Palik",
-    "Al": "Al",
+    "Al": "Al (Aluminium) - Palik",
     "Cu": "Cu (Copper) - Palik",
     "Si": "Si (Silicon) - Palik",
     "W": "W (Tungsten) - Palik",
