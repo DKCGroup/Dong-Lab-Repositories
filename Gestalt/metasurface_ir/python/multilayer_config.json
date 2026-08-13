@@ -1,0 +1,63 @@
+{
+  "period": 5e-06,
+  "N": 4,
+  "wavelength": {
+    "min": 8e-06,
+    "max": 1.4e-05,
+    "n": 40
+  },
+  "incidence": {
+    "theta": 0.0,
+    "polarization": "unpolarized"
+  },
+  "materials": {
+    "air": {
+      "type": "nk",
+      "n": 1.0,
+      "k": 0.0
+    },
+    "vo2_m": {
+      "type": "sampled_nk",
+      "file": "data/VO2-M.csv",
+      "wavelength_unit": "micron"
+    },
+    "ge": {
+      "type": "nk",
+      "n": 4.0,
+      "k": 0.0
+    },
+    "al": {
+      "type": "drude",
+      "omega_p": 2.4e+16,
+      "gamma_p": 124000000000000.0,
+      "eps_inf": 1.0
+    }
+  },
+  "layers": [
+    {
+      "material": "air",
+      "thickness": null
+    },
+    {
+      "material": "vo2_m",
+      "pattern": {
+        "type": "shape",
+        "shape": "circle",
+        "thickness": 4e-06,
+        "background": "air"
+      }
+    },
+    {
+      "material": "ge",
+      "thickness": 5e-07
+    },
+    {
+      "material": "al",
+      "thickness": 2e-07
+    },
+    {
+      "material": "air",
+      "thickness": null
+    }
+  ]
+}
